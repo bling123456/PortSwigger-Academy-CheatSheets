@@ -68,7 +68,7 @@ New version PoC
         location='/log?key='+this.responseText;
     };
 </script>
-'''
+```
 
 ```html
 <html>
