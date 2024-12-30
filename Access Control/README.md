@@ -70,8 +70,8 @@
 
 * An application’s access controls may be bypassed by platform level controls.
 
-* If there is a protected functionality that only a higher-level privilege user can access, test whether this functionality can be accessed with a different HTTP method.  Then determine if a lower-level privilege user can bypass access controls using this method.
-
+* If there is a protected functionality that only a higher-level privilege user can access, test whether this functionality can be accessed with a different HTTP method.  Then determine if a lower-level privilege user can bypass access controls using this method. Try POSTX, GET etc...
+  
 <br>
 
 ---
